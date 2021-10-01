@@ -1,9 +1,10 @@
 type Todo @model {
   id: ID!
   name: String!
-  lastname: String!
-  username: String!
-  description: String
+  phone: String!
+  email: String!
+  country: String!
+  region: String!
 
 
 }
