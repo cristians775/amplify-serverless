@@ -4,7 +4,7 @@ type Todo @model {
   phone: String!
   email: String!
   country: String!
-  region: String!
+  region: String
 
 
 }

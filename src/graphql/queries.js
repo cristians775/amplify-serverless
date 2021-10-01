@@ -6,8 +6,10 @@ export const getTodo = /* GraphQL */ `
     getTodo(id: $id) {
       id
       name
-      lastname
-      description
+      phone
+      email
+      country
+      region
       createdAt
       updatedAt
     }
@@ -23,8 +25,10 @@ export const listTodos = /* GraphQL */ `
       items {
         id
         name
-        lastname
-        description
+        phone
+        email
+        country
+        region
         createdAt
         updatedAt
       }

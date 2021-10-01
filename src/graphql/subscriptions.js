@@ -6,8 +6,10 @@ export const onCreateTodo = /* GraphQL */ `
     onCreateTodo {
       id
       name
-      lastname
-      description
+      phone
+      email
+      country
+      region
       createdAt
       updatedAt
     }
@@ -18,8 +20,10 @@ export const onUpdateTodo = /* GraphQL */ `
     onUpdateTodo {
       id
       name
-      lastname
-      description
+      phone
+      email
+      country
+      region
       createdAt
       updatedAt
     }
@@ -30,8 +34,10 @@ export const onDeleteTodo = /* GraphQL */ `
     onDeleteTodo {
       id
       name
-      lastname
-      description
+      phone
+      email
+      country
+      region
       createdAt
       updatedAt
     }
