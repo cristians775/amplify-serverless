@@ -7,8 +7,8 @@ import { listTodos } from "./graphql/queries";
 import { useState, useCallback, useEffect } from "react";
 Amplify.configure(awsconfig);
 const  App =()=> {
-  console.log('que onda pa 3: revenge of the sith');
   const [todos, setTodos] = useState([]);
+
   const fetchTodo = useCallback(async () => {
     const todoListData = await API.graphql(graphqlOperation(listTodos));
     const todoList = todoListData.data.listTodos.items;
